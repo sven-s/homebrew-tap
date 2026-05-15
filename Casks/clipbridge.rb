@@ -1,6 +1,18 @@
+# Homebrew Cask for Clipbridge
+#
+# This file is a TEMPLATE — the actual cask lives in the
+# sven-s/homebrew-tap repository at Casks/clipbridge.rb.
+#
+# To update after a new release:
+#   1. Tag and push: `git tag v0.X.0 && git push --tags`
+#   2. Wait for the Release workflow to publish the DMG
+#   3. `make cask-sha` to print the SHA256
+#   4. Update version + sha256 in homebrew-tap's Casks/clipbridge.rb
+#   5. Commit and push the tap
+
 cask "clipbridge" do
-  version "0.1.0"
-  sha256 "de2743e5e0662f9f109776779e623ca6b118963367ddd9f5cb016be0d4773df3"
+  version "0.1.1"
+  sha256 "63124ad153eb61cdc6d2f37e3d1bcb5a6d94ed799bfe932c53f6b4c31e09b47a"
 
   url "https://github.com/sven-s/clipbridge/releases/download/v#{version}/Clipbridge-v#{version}.dmg"
   name "Clipbridge"

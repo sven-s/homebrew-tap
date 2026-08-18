@@ -11,8 +11,8 @@
 #   5. Commit and push the tap
 
 cask "clipbridge" do
-  version "0.2.0"
-  sha256 "306e0c5351b6cd90f62d122115ee9371c03c3424ce0cafdec6ebb044a15757b3"
+  version "0.3.0"
+  sha256 "9c08f990f2c4699a68bc42ad4f305f3a7cf04990d241601b6c2759cdf353cc78"
 
   url "https://github.com/sven-s/clipbridge/releases/download/v#{version}/Clipbridge-v#{version}.dmg"
   name "Clipbridge"
